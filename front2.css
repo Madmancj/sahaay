@@ -1,0 +1,159 @@
+body{
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+header {
+	border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+	height: 35px;
+	background: BLACK;
+}
+section {
+	border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+	height: 512px;
+	background: #f2f4f3;
+}
+footer {
+	border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+	height: 100px;
+	background: BLACK;
+}
+header nav ul {
+	margin: 0px 370px 0px 170px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+header nav ul li{
+	padding-left: 8px;
+	padding-right: 8px;
+	display: inline;
+	border-left: 1px solid white;
+}
+header nav ul li a{
+	width: auto;
+	font-size:0.7em;
+	color: white;
+	text-decoration: none;
+}
+li#home, li#city{
+	border: none;
+}
+li#register{
+	border: none;
+	margin-left: 240px;
+	margin-right: 25px;
+	font-size: 1.15em;
+	font-weight: bold;
+}
+select{
+	width:130px;
+}
+footer nav ul{
+	margin: 55px 200px 20px 120px;
+	list-style-type: none;
+}
+footer nav ul li{
+	padding-left: 8px;
+	padding-right: 8px;
+	display: inline;
+}
+footer nav ul li a{
+	width: auto;
+	
+	font-size:0.7em;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+li#number{
+	margin: 0px;
+	margin-right: 100px;
+	padding: 0px;
+	width: auto;
+	
+	font-size:0.6em;
+	color: grey;
+	text-decoration: none;	
+}
+li#username{
+	margin-right: 15px;
+}
+li#pass{
+	margin-right: 10px;
+}
+input[type=submit]{
+	border-radius: 3px;
+	border: 2px solid;
+	border-color: #eb906d;
+	background-color: #eb906d;
+	color: white;
+	font-weight: bold;
+	width:80px;
+}
+a:hover{
+	color: #ee3222;
+}
+.upper_container>.upper{
+	width: 213px;
+	height: 75px;
+	margin: 40px auto auto auto;
+}
+.upper_container>.lower{
+	width: 500px;
+	height: 109px;
+	margin: 30px auto;
+}
+#left{
+	color: #8a0c02;
+	font-weight: bold;
+	font-size: 0.8em;
+	vertical-align: top;
+}
+#right{
+	color: #ee3222;
+	font-weight: bold;
+	font-size: 0.8em;
+	vertical-align: top;
+}
+.lower>span{
+	margin: 0px 15px;
+	display: inline-block;
+	height: 109px;
+}
+.lower p{
+	margin: 45px 0px;
+}
+.lower_container{
+	width: 840px;
+	height: 120px;
+	margin: 80px auto 30px auto;
+}
+.lower_container>div{
+	height: 120px;
+	display: inline-block;
+	color: #454545;
+	font-weight: bold;
+	font-size: 0.7em;
+	vertical-align:top;
+}
+.lower_container img{
+	margin: auto 15px;
+	vertical-align: bottom;
+}
+.lower_container>#one{
+	margin: auto auto auto 30px;
+}
+.lower_container>#two{
+	width: 100px;
+	margin: auto 270px auto 30px;
+}
+.lower_container>#four{
+	width: 150px;
+	margin: auto auto auto 30px;
+}

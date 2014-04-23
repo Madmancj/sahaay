@@ -1,0 +1,233 @@
+body{
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+header {
+	border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+	height: 35px;
+	background: BLACK;
+}
+select{
+	border-radius: 4px;
+}
+section{
+	border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+	height: 512px;
+	background: #f2f4f3;
+}
+footer {
+	border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+	height: 100px;
+	background: BLACK;
+}
+header nav ul {
+	width: 60%;
+	margin: 5px 370px auto 170px;
+	list-style-type: none;
+	display: inline;
+	float: left;
+}
+header nav ul li{
+	padding-left: 8px;
+	padding-right: 8px;
+	display: inline;
+	border-left: 1px solid white;
+}
+header nav ul li a{
+	width: auto;
+	font-size:0.7em;
+	color: white;
+	text-decoration: none;
+}
+.social{
+	position: absolute;
+	right: 140px;
+	top: 5px;
+	width: 10%;
+	height: 30px;
+	vertical-align: top;
+	float: right;
+	display: inline;
+}
+li#home, li#city{
+	border: none;
+}
+li#register{
+	border: none;
+	margin-left: 240px;
+	margin-right: 25px;
+	font-size: 1.15em;
+	font-weight: bold;
+}
+select{
+	width:130px;
+}
+a:hover{
+	color: #ee3222;
+}
+.upper_container>.upper{
+	width: 213px;
+	height: 75px;
+	margin: 40px auto auto auto;
+}
+.upper_container>.lower{
+	width: 500px;
+	height: 109px;
+	margin: 30px auto;
+}
+#left{
+	color: #8a0c02;
+	font-weight: bold;
+	font-size: 0.8em;
+	vertical-align: top;
+}
+#right{
+	color: #ee3222;
+	font-weight: bold;
+	font-size: 0.8em;
+	vertical-align: top;
+}
+.lower>span{
+	margin: 0px 15px;
+	display: inline-block;
+	height: 109px;
+}
+.lower p{
+	margin: 45px 0px;
+}
+.lower_container{
+	width: 840px;
+	height: 120px;
+	margin: 80px auto 30px auto;
+}
+.lower_container>div{
+	height: 120px;
+	display: inline-block;
+	color: #454545;
+	font-weight: bold;
+	font-size: 0.7em;
+	vertical-align:top;
+}
+.lower_container img{
+	margin: auto 15px;
+	vertical-align: bottom;
+}
+.lower_container>#one{
+	margin: auto auto auto 30px;
+}
+.lower_container>#two{
+	width: 100px;
+	margin: auto 270px auto 30px;
+}
+.lower_container>#four{
+	width: 150px;
+	margin: auto auto auto 30px;
+}
+.footer-container{
+	width: 1320px;
+	margin-top: 20px;
+	height: 75px;
+}	
+.left-bottom{
+	width:35%;
+	float:left;
+	display: inline;
+	margin-top: 35px;
+}
+.right-bottom{
+	width:55%;
+	float:right;
+	display: inline;
+	height: 70px;
+}
+footer div ul{
+	margin: 0px 20px 0px 70px;
+	display: inline;
+}
+footer div ul li{
+	display: inline;
+	margin: 5px;
+}
+footer div ul li a, .pass a{
+	font-size:0.7em;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+li#faq{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+li#number{
+	margin: 0px;
+	margin-right: 10px;
+	padding: 0px;
+	width: auto;
+	font-size: 0.6em;
+	color: grey;
+	text-decoration: none;	
+}
+li#username{
+	margin-right: 15px;
+}
+li#pass{
+	margin-right: 10px;
+}
+.user{
+	height: 80%;
+	width: 30%;
+	display: inline;
+	float: left;
+}
+.pass{
+	width: 30%;
+	height: 80%;
+	float: left;
+	display: inline;
+}
+.button{
+	height: 60%;
+	width: 15%;
+	float: left;
+	display: inline;
+	padding-top:15px;
+}
+input[type=password]{
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+input[type=text]{
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+input[type=checkbox]{
+	margin-left: 30px;
+}
+.pass a{
+	margin-left: 30px;
+}
+
+.user p{
+	font-size:0.7em;
+	font-weight: bold;
+	color: white;
+	display: inline;
+	margin-left: 30px;
+}
+input[type=submit]{
+	border-radius: 5px;
+	border-color: #eb906d;
+	background-color: #eb906d;
+	color: white;
+	font-weight: bold;
+	width:80px;
+}
